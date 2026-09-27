@@ -26,3 +26,4 @@ Después, crea tres clases:
 ## Excecution
 - creo la interfaz Phone
 - creo Smartphone implementando Phone y el metodo takePhoto()
+- he creado el util GenericUtils con dos metodos limitados a T extends Phone y T extends Smartphone
