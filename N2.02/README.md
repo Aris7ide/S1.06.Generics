@@ -21,4 +21,6 @@ Este nivel se centra en refinar el uso de genéricos, aprendiendo a combinar par
 ### Ejercicio 2 — Varargos genéricos
 #### Adapta el ejercicio anterior para que el método acepte un número variable de argumentos genéricos (varargos). El nombre del método puede ser printAll().
 - he modificado el NoGenericMethods permitiendo varios String con un (String...string).
-- 
+- tambièn he creado otro metodo con vararg genericos genericVarargs()
+
+- he leido sobre la incompatibilidad de los Arrays con los tipo y del @SafeVarargs si el metodo es seguro

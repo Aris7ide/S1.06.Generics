@@ -13,5 +13,7 @@ public class Main {
 
         GenericMethod.printElements(person,34,"String");
 
+        NoGenericMethods.genericVararg("string",23,23,45,34.45685,person);
+
     }
 }
