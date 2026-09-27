@@ -27,3 +27,6 @@ Después, crea tres clases:
 - creo la interfaz Phone
 - creo Smartphone implementando Phone y el metodo takePhoto()
 - he creado el util GenericUtils con dos metodos limitados a T extends Phone y T extends Smartphone
+- en un main he creado un objeto Smartphone y llamado los dos metodos del GenericUtils
+- claramente el metodo limitado a la interfaz Phone no puede llamar takePhoto porque es un metodo de la clase Smartphone.
+- si por un lado Smartphone implementa la interfaz Phone y el metodo call(), Phone siendon una interfaz no puede llamar otros metodos que sean los suyos
