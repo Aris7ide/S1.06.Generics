@@ -24,3 +24,4 @@ Este nivel se centra en refinar el uso de genéricos, aprendiendo a combinar par
 - tambièn he creado otro metodo con vararg genericos genericVarargs()
 
 - he leido sobre la incompatibilidad de los Arrays con los tipo y del @SafeVarargs si el metodo es seguro
+- le he puesto @SageVarargs

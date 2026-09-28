@@ -2,16 +2,25 @@ package com.models;
 
 public class NoGenericMethods {
 
-    public NoGenericMethods(String... string) {
-        for (String s : string) {
-            System.out.println(s);
-        }
+    private String value1;
+    private String value2;
+    private String value3;
+
+    public NoGenericMethods(String value1, String value2, String value3) {
+        this.value1 = value1;
+        this.value2 = value2;
+        this.value3 = value3;
     }
 
-    public static <T> void genericVararg(T...t) {
-        for (T var : t) {
-            System.out.println(var);
-        }
+    public String getElement1() {
+        return value1;
+    }
 
+    public String getElement2() {
+        return value2;
+    }
+
+    public String getElement3() {
+        return value3;
     }
 }
