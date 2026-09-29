@@ -1,6 +1,6 @@
 package com.models;
 
-public class Vararg {
+public class VarargMethod {
 
     @SafeVarargs
     public static <T> void genericVararg(T...t) {

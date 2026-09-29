@@ -18,7 +18,8 @@ En este nivel te introducirás en los conceptos fundamentales de los genéricos.
 #### Comprueba que puedes pasar los argumentos en cualquier orden al constructor.
 
 #### Este ejercicio sirve para comparar después el comportamiento con una versión genérica.
-- he creado la clase NoGenericMethods, almacenando tres elementos String y la clase Main
+- he creado la clase NoGenericMethods, almacenando tres elementos String
+- he comprobado con un test que se pueden pasar los argumentos en cualquier orden
 
 ##  Ejercicio 2
 #### Crea una clase Personcon los atributos name, surnamey age. Después, crea una clase llamada GenericMethodscon un método genérico llamado printElements()que acepte tres argumentos de tipo genérico y los imprima por pantalla.
