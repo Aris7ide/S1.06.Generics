@@ -8,8 +8,9 @@ public class Main {
     static void main(String[] args) {
 
         Person person = new Person("Rosa" , "maiello" , 45);
+        GenericMethod genericMethod = new GenericMethod();
 
-        GenericMethod.printElements(person,34,"String");
+        System.out.println(genericMethod.printElements(person,34,"String"));
 
         VarargMethod.genericVararg("string",23,23,45,34.45685,person);
     }
