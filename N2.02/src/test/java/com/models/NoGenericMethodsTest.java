@@ -7,10 +7,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class NoGenericMethodsTest {
 
     @Test
-    void shouldNotThrowException() {
-        String st1 = "Value 1";
-        String st2 = "Value 2";
-        String st3 = "Value 3";
+    void shouldGiveRightElements() {
 
         NoGenericMethods ngm1 = new NoGenericMethods("Value2","Value1","Value3");
         assertThat(ngm1.getElement1()).isEqualTo("Value2");
